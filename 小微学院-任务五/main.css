@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共部分*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#CCC;
+}
+h2,.subtitle{
+	color:#999;
+}
+/*nav*/
+
+.wrap{
+	margin:20px;
+}
+.nav{
+	width:100%;
+	height:80px;
+	background:#333;
+}
+.nav .wrap_1{
+	margin:0 20px;
+}
+.nav img{
+	float:left;
+	transform-origin:left;
+	transform:scale(0.6);
+	margin-top:-25px;
+}
+.nav ul li{
+	float:right;
+	margin-left:15px;
+	line-height:80px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+/*cantainer*/
+.wrap{
+	margin:20px 20px;
+	margin-right:430px;
+}
+.cantainer{
+	background:#fff;
+	padding:20px;
+	border:1px solid #999;
+	border-right:3px solid #999;
+	border-bottom:3px solid #999;
+	margin:20px 0;
+}
+.cantainer img{
+	width:30%;
+}
+.cantainer .pic{
+	display:inline-block;
+	margin:20px;
+	border:1px solid #999;
+	width:20%;
+	height:20%;
+}
+.cantainer .pic p{
+	margin-top:20px;
+	text-align:center;
+}
+.cantainer .pic img{
+	padding:10%;
+	margin:0 auto;
+	width:80%;
+}
+
+.cantainer ol{
+	margin-left:100px;
+	line-height:30px;
+}
+.cantainer table{
+	width:80%;
+	margin:20px auto;
+	text-align:left;
+}
+.cantainer table th{
+	background:#333;
+	padding:5px;
+}
+.cantainer table  td{
+	padding:5px;
+	background:#CCC;
+}
+.cantainer table tr:last-child td{
+	background:#999;
+	}
+.cantainer_right{
+	background:#fff;
+	padding:20px;
+	width:350px;
+	border:1px solid #999;
+	border-right:3px solid #999;
+	border-bottom:3px solid #999;
+	float:right;
+	margin:20px;
+}
+.cantainer_right .last_title{
+	padding:10px;
+	border-left:3px solid #999;
+	
+	}
+.cantainer_right table {
+	margin:20px;
+}
+.cantainer_right table td{
+	padding-bottom:20px;
+}
+.decsribe{
+	width:200px;
+	height:100px;
+	resize:both;
+	}
+.sub{
+	display:block;
+	width:90%;
+	height:50px;
+	color:#fff;
+	background:#039;
+	border-radius:10px;
+	margin:0 auto;
+}
+/*版权区*/
+.pucblic{
+	width:100%;
+	height:80px;
+	text-align:center;
+	background:#000;
+	color:#fff;
+	line-height:80px;
+}

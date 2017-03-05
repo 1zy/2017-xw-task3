@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+  *{
+	  margin:0;
+	  padding:0;
+  }
+  .wrap{
+	  margin-top:40px;
+  } 
+   .box{
+	  background:#eee;
+	  border:1px solid #999;
+	  height:50px;
+	  display:inline-block;
+	  margin:10px;
+  }
+  @media only screen and (min-width: 768px){
+ 
+  .four{
+	  width:270px;
+  }
+  .three{
+	  width:200px;
+  }
+  .six{
+	  width:410px;
+  }
+  .two{
+	  width:120px;
+  }
+  .one{
+	  width:50px;
+  }
+  }
+   @media only screen and (max-width:768px){
+	   .four{
+		   width:300px;
+	   }
+	   .four_3{
+		   width:628px;
+	   }
+	   .three{
+		   width:135px;
+	   }
+	   .six{
+		   width:300px;
+	   }
+	   .one{
+		   width:85px;
+	   }
+	   .two_1{
+		   width:400px;
+	   }
+	   .six_2{
+		   width:140px;
+	   }
+	   }
+</style>
+</head>
+
+<body>
+    <div class="wrap">
+       <div class="four box"></div>
+       <div class="four box"></div>
+       <div class="four four_3 box"></div><br />
+       
+       <div class="three box"></div>
+       <div class="six box"></div>
+       <div class="three box"></div><br />
+       
+       <div class="one box"></div>
+       <div class="one box"></div>
+       <div class="two two_1 box"></div>
+       <div class="two  six_2 box"></div>
+       <div class="six  six_2 box"></div>
+    </div>
+</body>
+</html>

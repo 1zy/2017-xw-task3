@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.flex{
+	display:flex;
+	height:300px;
+}
+
+li{
+    list-style:none;
+	width:150px;
+	border:1px solid #F00;
+	padding:10px;
+}
+.flex li:nth-child(1){
+	height:120px;
+}
+.flex li:nth-child(2){
+	height:100px;
+	margin:0 10px;
+}
+.flex li:nth-child(3){
+	height:40px;
+	margin:0 10px;
+}
+.flex li:nth-child(4){
+	height:200px;
+	border:1px solid #00F;
+}
+@media only screen and (min-width:640px){
+	.flex{
+		align-items :center;
+		justify-content:space-between ;
+    }
+}
+@media only screen and (max-width:640px){
+	.flex{
+		flex-flow:row wrap;
+		justify-content:space-between;
+	}
+     .flex li:nth-child(4){
+		 order:-1;
+	 }
+     .flex li:nth-child(3){
+		 margin-left:10px;
+	 }
+	 li{
+		 margin:0 10px;
+	 }
+}
+</style>
+</head>
+
+<body>
+   <div class="wrap">
+      <ul class="flex">
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+   </div>
+</body>
+</html>

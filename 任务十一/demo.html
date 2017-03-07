@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,user-scalable=no">
+<title>无标题文档</title>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:62.5%;
+	}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	color:#06F;
+}
+.public-title{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:2.4rem;
+	background:#09F;
+}
+.public-title span{
+	display:inline-block;
+	line-height:5rem;
+}
+.public-title span:first-child{
+	position:absolute;
+	left:2rem;
+}
+/*nav*/
+nav{
+	padding:2rem 0;
+}
+nav li{
+	width:19.5%;
+	text-align:center;
+	display:inline-block;
+	font-size:2.4rem;
+	font-family:"微软雅黑";
+}
+.move{
+	width:19%;
+	height:0.2rem;
+	background:red;
+	position:absolute;
+	top:11.5rem;
+}
+#two:hover .move{
+	left:19%;
+}
+	
+/*banner*/
+.banner img{
+	width:100%;
+}
+/*logo*/
+.logo{
+	display:flex;
+	justify-content:space-around;
+	margin:4rem 0;
+}
+.logo li{
+	display:inline-block;
+	width:8rem;
+	height:8rem;
+	border-radius:4rem;
+	background:#00CBD5;
+	text-align:center;
+}
+.logo li img{
+	width:5rem;
+	display:inline-block;
+	margin-top:0.5rem;
+}
+.logo li p{
+	margin:2rem 0;
+	font-size:2.4rem;
+	font-family:"黑体";
+}
+/*sub_title_box*/
+.sub_title{
+	border-top:0.2rem solid #999;
+	width:100%;
+	margin-top:8rem;
+	padding-bottom:4rem;
+}
+.sub_title_box{
+	display:inline-block;
+	text-align:center;
+	font-family:"微软雅黑";
+	margin-top:6rem;
+	width:32%;
+	
+}
+.sub_title_box img{
+	width:45%;
+}
+.sub_title_box p:nth-of-type(1){
+	font-size:2.4rem;
+}
+.sub_title_box p:nth-of-type(2){
+	color:#666;
+	font-size:2rem;
+}
+.item_2{
+	border-left:0.2rem solid #999;
+	border-right:0.2rem solid #999;
+}
+.item_3 img{
+	padding-bottom:3rem;
+}
+hr{
+	height:2.5rem;
+	background:#ccc;
+}
+/*container*/
+.container{
+	margin-top:2rem;
+	padding:2rem;
+	font-family:"微软雅黑";
+	
+}
+.container .title{
+	height:5rem;
+	line-height:5rem;
+	font-size:3rem;
+	font-family:"微软雅黑";
+	margin-bottom:2rem;
+	border-bottom:0.2rem solid #999;
+}
+.container_box img{
+	display:inline-block;
+	width:20%;
+}
+.container_box{
+	margin-bottom:3rem;
+}
+.container_box .wrap{
+	width:60%;
+	position:relative;
+	left:25%;
+	margin-top:-18%;
+}
+.container_box .wrap p{
+	width:40%;
+	height:5rem;
+	display:inline-block;
+	background:#ccc;
+	font-size:2.4rem;
+	font-family:"微软雅黑";
+	line-height:5rem;
+	text-align:center;
+	margin:2rem;
+}
+.art{
+	padding:2.5rem;
+	
+}
+.art_box{
+	border-bottom:0.3rem solid #999;
+	padding:2rem;
+	}
+.art_box img{
+	display:inline-block;
+	width:30%;
+}
+.art_wrap{
+	display:inline-block;
+	width:60%;
+	height:12rem;
+	font-size:3.2rem;
+	font-family:"微乳雅黑";
+	font-weight:bold;
+	position:relative;
+	left:3rem;
+}
+.art_wrap p{
+	margin-top:10%;
+	font-size:2.6rem;
+	color:#999;
+}
+.art_box_3{
+	padding:2rem;
+	text-align:center;
+	
+}
+.art_box_3 p{
+	font-size:3.2rem;
+	font-family:"微乳雅黑";
+	font-weight:bold;
+	padding:3rem 0;
+	display:block;
+	text-align:left;
+	margin:0 2rem;
+}
+.art_box_3 img{
+	width:30%;
+	margin:0 1rem;
+}
+	
+</style>
+</head>
+
+<body>
+   <div class="public-title">
+      <span>&lt;返回</span>
+      <span>这是标题</span>
+   </div>
+   
+   <nav>
+      <ul>
+	    <li class="item1"><a href="#">导航</a></li>
+        <li id="two"><a href="#">导航</a></li>
+        <li class="item3"><a href="#">导航</a></li>
+        <li class="item4"><a href="#">导航</a></li>
+        <li class="item1"><a href="#">导航</a></li>
+      </ul>
+       <div class="move"></div>
+   </nav>
+   
+   <div class="banner">
+       <img src="images/banner.gif">
+   </div>
+   
+   <ul class="logo">
+      <li><img src="images/logo.png"><p>标签</p></li> 
+      <li><img src="images/logo.png"><p>标签</p></li> 
+      <li><img src="images/logo.png"><p>标签</p></li>
+      <li><img src="images/logo.png"><p>标签</p></li> 
+      <li><img src="images/logo.png"><p>标签</p></li> 
+   </ul>
+   
+   <div class="sub_title">
+      <div class="sub_title_box item_1">
+         <img src="images/pic_1.gif">
+         <p>分栏一</p>
+         <p>分栏小标题</p>
+      </div>
+      <div class="sub_title_box item_2">
+         <img src="images/pic_2.gif">
+          <p>分栏二</p>
+          <p>分栏小标题</p>
+      </div>
+      <div class="sub_title_box item_3">
+         <img src="images/pic_3.gif">
+          <p>分栏三</p>
+          <p>分栏小标题</p>
+      </div>
+   </div>
+   <hr>
+   <div class="container">
+       <p class="title">模块一</p>
+      <div class="container_box">
+         <img src="images/pic_4.gif">
+         <div class="wrap">
+            <p>这是文案</p>
+            <p>这是文案</p><br>
+            <p>这是文案</p>
+            <p>这是文案</p>
+         </div>
+      </div>
+      
+       <div class="container_box box">
+         <img src="images/pic_4.gif">
+         <div class="wrap">
+            <p>这是文案</p>
+            <p>这是文案</p><br>
+            <p>这是文案</p>
+            <p>这是文案</p>
+         </div>
+      </div>
+  </div>
+  <hr>
+  <div class="container">
+     <p class="title">模块二</p>
+     <div class="container_box">
+         <img src="images/pic_4.gif">
+         <div class="wrap">
+            <p>这是文案</p>
+            <p>这是文案</p><br>
+            <p>这是文案</p>
+            <p>这是文案</p>
+         </div>
+      </div>
+      <div class="container_box">
+         <img src="images/pic_4.gif">
+         <div class="wrap">
+            <p>这是文案</p>
+            <p>这是文案</p><br>
+            <p>这是文案</p>
+            <p>这是文案</p>
+         </div>
+      </div>
+  </div>
+<hr>
+   <div class="art">
+      <div class="art_box">
+         <img src="images/pic_5.gif">
+         <div class="art_wrap">
+             这是文章的标题字号是22的文章标题
+             <p>文章来源 6分钟前</p>
+         </div>
+      </div>
+      
+      <div class="art_box">
+         <img src="images/pic_5.gif">
+         <div class="art_wrap">
+             这是另一个文章标题这是另一个文章标题
+             <p>文章来源 7分钟前</p>
+         </div>
+      </div>
+      
+      <div class="art_box_3">
+          <p>这是文章的标题字号是22的文章标题</p>
+          <div class="pic_wrap">
+             <img src="images/pic_5.gif">
+             <img src="images/pic_5.gif">
+             <img src="images/pic_5.gif">
+          </div>
+      </div>
+      
+   </div>
+</body>
+</html>
